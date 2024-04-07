@@ -1,0 +1,39 @@
+DOM IN JAVASCRIPT
+
+DOM - Document Object Model
+
+    -> DOM reperents the web page as a tree-like structure that allows javascript to dybamically access and manipulate the content 
+and structure of the webpage. 
+
+Selecting DOM Elements:
+
+   => getElementById  -  selecting the element by id name
+   => getElementsByClassName  -  selecting the element by class name 
+   => getElementsByTagName  -  selecting the element by tag name 
+   => querySelector   -   returns the first element that matches the specified CSS selector within the document.
+   => querySelectorAll  -  returns a NodeList containing all elements that match the specified CSS selector within the document.
+
+Modifying Elements Properties and Attributes:
+  
+   => text content  -  The textContent property is used to get or set the text content of an element. 
+   => inner HTML  -  The innerHTML property is used to get or set the HTML content of an element.
+   => set Attribute  -   The setAttribute method is used to set an attribute on the specified element. 
+   => remove Attribute  -  The removeAttribute method is used to remove the specified attribute from the element.
+   => style.property  -  The style property allows you to access the inline CSS styles of an element directly using JavaScript. 
+
+Creating and Appending Elements:
+
+    => createEement  -  The createElement method is used to create a new HTML element in memory. 
+    => appendchild  -  The appendChild method is used to append a newly created element or an existing element to another element as its child.
+    => clone Node  - The cloneNode method is used to create a duplicate of an existing node in the DOM.  
+
+Removing Elements:
+
+     => remove( )  -  The remove() method is used to remove the selected element from the DOM. 
+     => removechild  -  The removeChild() method is used to remove a specified child node from its parent node. 
+
+Adding and Removing:
+
+     => addEventListener  -  The addEventListener method is used to attach an event listener to a DOM element. 
+     => removeEventListener  -  The removeEventListener method is used to remove an event listener from a DOM element. 
+
